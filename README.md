@@ -2,9 +2,9 @@ rename .env.example to .env (mail credentials already placed for user email veri
 create database and update credentials in env file
 then run these commands in sequence
 
-composer update
-php artisan migrate
-php artisan passport:install
-php artisan key:generate
+composer update <br>
+php artisan migrate <br>
+php artisan passport:install <br>
+php artisan key:generate <br>
 
 use virtual host to run the project ( strictly )
